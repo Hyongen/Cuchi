@@ -5,6 +5,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap');
 
 /*****---------------------------------------- 1) font-family: 'Rajdhani', sans-serif;
  2) font-family: 'Poppins', sans-serif;
@@ -483,11 +484,11 @@ ul.top_icon li a {
 
 .menu-area-main li:hover a,
 .menu-area-main li:focus a {
-     color: #ffff;
+     color: #e5be01;
 }
 
-.menu-area-main li.active a {
-     color: #fff;
+.menu-area-main li.active a:hover {
+     color: #e5be01;
 }
 
 .right_cart_section {
@@ -1587,6 +1588,12 @@ height: 50px;
 background-repeat: no-repeat;
 left: -38px;;
 }
+
+.location_icon_bottum ul{
+     display:flex;
+     justify-content: space-around;
+}
+
 .location_icon_bottum ul li {
      display: inline-block;
 padding: 17px 10px;
@@ -1641,14 +1648,14 @@ display: inline-block;
 font-weight: 500;
 font-size: 17px;
 line-height: 30px;
-color: #f00;
+color: #e5be01;
 text-align: center;
 border-radius: 30px;
 }
 
 .banner-main .carousel-caption .buynow:hover {
-     border: #ff0000 solid 1px;
-     background: #ff0000;
+     border: #e5be01 solid 1px;
+     background: #e5be01;
      color: #fff;
 }
 
@@ -1842,7 +1849,7 @@ border-radius: 50px;
 /** brand **/
 .brand {
      padding-top: 60px;
-     border-top: #db0000 solid 6px;}
+     border-top: #e5be01 solid 6px;}
 
 .brand-bg {
      background: #ebebeb;
@@ -1932,7 +1939,7 @@ margin-top: 40px
 } 
 
 .form-control {
-     border: #ff0000 solid 2px;
+     border: #e5be01 solid 2px;
      border-radius: inherit;
      margin-bottom: 30px;
      padding: 13px 20px;
@@ -1940,12 +1947,12 @@ margin-top: 40px
 }
 .form-control:focus {
      box-shadow: inherit;
-     border: #ff0000 solid 2px !important;
+     border: #e5be01 solid 2px !important;
 }
 
 .textarea {
      font-family: poppins;
-     border: #ff0000 solid 2px;
+     border: #e5be01 solid 2px;
      margin-bottom: 30px;
      padding: 13px 20px;
      width: 100%;
@@ -1985,7 +1992,7 @@ margin-top: 40px
     color: #fff;
     max-width: 850px;
     padding-bottom: 1px;
-    border-bottom: #fff solid 1px;
+    border-bottom: #e5be01 solid 1px;
     text-align: center;
     margin: 0 auto;
      margin-bottom: 0px;
@@ -2121,7 +2128,7 @@ ul.location_icon span {
      background: #fffdfd;
      opacity: 1;
      font-size: 30px;
-     color: #000;
+     color: #e5be01;
 }
 
 #myCarousel .carousel-control-prev:hover,
