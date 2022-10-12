@@ -78,7 +78,9 @@ h1 {
 }
 
 h2 {
-     font-size: 22px
+     font-size: 22px;
+     border-left: 5px solid #8f000d;
+     padding-left: 20px!important;
 }
 
 h3 {
@@ -1665,7 +1667,7 @@ input[type="radio"] .styled:checked+label::after {
      position: absolute;
      margin-bottom: -111px;
      z-index: 999;
-     background: #ff0000;
+     background: #8f000d;
      width: 100%;
      position: relative;
 }
@@ -1896,7 +1898,7 @@ ul.social_icon li a:hover {
 }
 
 .clients_red {
-     background: #ff0000;
+     background: #8f000d;
      padding-top: 90px;
      padding-bottom: 110px;
 }
@@ -1974,7 +1976,7 @@ ul.social_icon li a:hover {
 }
 
 .brand-bg {
-     background: #ebebeb6b;
+     background: #8f000d;
      padding: 90px 0px;
      font-family: Myriad Pro;
 }
@@ -2300,7 +2302,7 @@ ul.location_icon span {
 #myCarousel .carousel-control-next:hover,
 #myCarousel .carousel-control-prev:focus,
 #myCarousel .carousel-control-next:focus {
-     background: #ff0000;
+     background: #8f000d;
      color: #fff;
 }
 
